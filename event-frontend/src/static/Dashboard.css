@@ -1,0 +1,121 @@
+/* Container for TeamLogin page */
+
+.table-sidebar-box{
+    background-color: #000000;
+    min-height: 93.75vh;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+.table-box{
+    /* margin-top: 200px; */
+    display: flex; 
+}
+
+.team-login-container {
+    margin-top: 50px;
+    padding: 20px;
+    /* max-width: 800px; */
+    /* margin: auto; */
+    width: 100%;
+    text-align: center;
+    /* margin-top: 200px; */
+}
+
+/* Title styling */
+.table-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f76c6c;
+}
+
+
+
+/* Table container for smooth transition */
+.table-wrapper {
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    margin-left: 200px;
+}
+
+.table-wrapper.hidden {
+    opacity: 0;
+    height: 0;
+    /* overflow: hidden; */
+}
+
+
+.table-sidebar {
+    width: 280px;
+    height: 100%;
+    margin-top: 80px;
+    padding: 20px;
+    color: #ffffff;
+    position: fixed;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .table-sidebar-title {
+    color: #eddbd9;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .table-sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .table-sidebar-list li {
+    /* color: #08385c;
+    font-size: 1.5rem; */
+    margin: 20px 0;
+    /* position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s; */
+  }
+  
+  
+  .table-sidebar-list li:hover::before {
+    background-color: #ffffff;
+  }
+
+
+/* Button styling with hover and click effects */
+.table-toggle-button {
+  background-color: #1a2235;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.4s ease;
+  width: 200px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Click (active) effect */
+.table-toggle-button:active {
+  transform: scale(0.7);
+  background-color: #161d2c;
+
+}
+.table-toggle-button:active, .table-toggle-button:hover {
+  transform: translateX(10px);
+}
+
+
+.table-name{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 35px;
+    /* letter-spacing: 7px; */
+    font-family: "CustomFont",sans-serif;
+    letter-spacing: 4px;
+}
